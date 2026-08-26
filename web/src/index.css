@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+TC:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  --bg-app: #F8FAFC;
+  --bg-card: #FFFFFF;
+  --bg-header: #FFFFFF;
+  --bg-sidebar: #FFFFFF;
+  --bg-sidebar-active: #E0F2FE;
+  --bg-button-primary: #0288D1;
+  --bg-button-hover: #01579B;
+
+  --accent: #0288D1;
+  --accent-hover: #01579B;
+  --accent-bg: #E0F2FE;
+  --accent-orange: #F57C00;
+
+  --text-primary: #1F2937;
+  --text-secondary: #4B5563;
+  --text-muted: #9CA3AF;
+  --text-on-accent: #FFFFFF;
+  --text-link: #0288D1;
+
+  --border-default: #E5E7EB;
+  --border-soft: #F3F4F6;
+  --shadow-card: 0 2px 8px rgba(0, 0, 0, 0.06);
+  --shadow-sidebar: 0 2px 12px rgba(0, 0, 0, 0.08);
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+}
+
+html, body, #root { height: 100%; margin: 0; }
+
+body {
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-family: 'Inter', 'Noto Sans TC', -apple-system, BlinkMacSystemFont, 'PingFang TC', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.55;
+}
